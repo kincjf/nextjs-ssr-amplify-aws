@@ -1,23 +1,44 @@
 {
-    "dev": {
-        "awscloudformation": {
-            "AuthRoleName": "amplify-pokessr-dev-185133-authRole",
-            "UnauthRoleArn": "arn:aws:iam::695841149075:role/amplify-pokessr-dev-185133-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::695841149075:role/amplify-pokessr-dev-185133-authRole",
-            "Region": "us-east-1",
-            "DeploymentBucketName": "amplify-pokessr-dev-185133-deployment",
-            "UnauthRoleName": "amplify-pokessr-dev-185133-unauthRole",
-            "StackName": "amplify-pokessr-dev-185133",
-            "StackId": "arn:aws:cloudformation:us-east-1:695841149075:stack/amplify-pokessr-dev-185133/3a8e42e0-b823-11eb-b3e6-0ecd7efaa235",
-            "AmplifyAppId": "d31r520fbr96mj"
-        },
-        "categories": {
-            "hosting": {
-                "amplifyhosting": {
-                    "appId": "d31r520fbr96mj",
-                    "type": "cicd"
-                }
-            }
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-pokessr-dev-185133-authRole",
+      "UnauthRoleArn": "arn:aws:iam::695841149075:role/amplify-pokessr-dev-185133-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::695841149075:role/amplify-pokessr-dev-185133-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-pokessr-dev-185133-deployment",
+      "UnauthRoleName": "amplify-pokessr-dev-185133-unauthRole",
+      "StackName": "amplify-pokessr-dev-185133",
+      "StackId": "arn:aws:cloudformation:us-east-1:695841149075:stack/amplify-pokessr-dev-185133/3a8e42e0-b823-11eb-b3e6-0ecd7efaa235",
+      "AmplifyAppId": "d31r520fbr96mj"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d31r520fbr96mj",
+          "type": "cicd"
         }
+      }
     }
+  },
+  "develop": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-pokessr-develop-21207-authRole",
+      "UnauthRoleArn": "arn:aws:iam::570872761770:role/amplify-pokessr-develop-21207-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::570872761770:role/amplify-pokessr-develop-21207-authRole",
+      "Region": "ap-northeast-2",
+      "DeploymentBucketName": "amplify-pokessr-develop-21207-deployment",
+      "UnauthRoleName": "amplify-pokessr-develop-21207-unauthRole",
+      "StackName": "amplify-pokessr-develop-21207",
+      "StackId": "arn:aws:cloudformation:ap-northeast-2:570872761770:stack/amplify-pokessr-develop-21207/614569b0-afaf-11ed-a40b-067e52fb0492",
+      "AmplifyAppId": "d8brxo3ih8jum"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d8brxo3ih8jum",
+          "type": "cicd"
+        }
+      }
+    }
+  }
 }
